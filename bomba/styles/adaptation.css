@@ -1,0 +1,259 @@
+:root{
+    --black: #252525;
+    --bg: #171717;
+    --gray: #707070;
+    --orange: #ffb469;
+}
+@media(max-width: 1700px) {
+    .Block-2-photo {
+        right: 5vw;
+    }
+    .Block-2-10-l{ 
+        left: 14vw;
+    }
+}
+
+@media(max-width: 1300px) {
+    .Block-2-photo {
+        right: 0;
+    }
+    .BLock-1-mobile-buttons{
+        display: flex;
+        margin: 30px 0;
+    }
+
+    
+    .BLock-1-mobile-buttons-button{
+        display: flex;
+    
+        margin: 0 10px;
+        background-color: var(--black);
+        border: 2px solid var(--orange);
+        color: var(--orange);
+        padding: 13px 16px;
+        border-radius: 15px;
+    }
+    body {
+        background-size: 960px, 80px, 100%, 100%;
+        background-position-y: center,center,center, 14000px;
+
+    }
+    @keyframes HeaderBg {
+        0%{
+            background-position-x: 1660px, 0, 0, 0;
+            background-position-y: 0, 160px, 0, 12300px;
+        }
+        50%{
+            background-position-x: 990px, 0, 0, 0;
+            background-position-y: 0, 880px, 0, 12300px;
+        }
+        100%{
+            background-position-x: 1660px, 0, 0, 0;
+            background-position-y: 0, 160px, 0, 12300px;
+        }
+    }
+    .Form-title{
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .Desctop{
+        display: none;
+    }
+    .Block-1-l-paragraph, .Block-1-l-paragraph-1, .Block-1-l-paragraph-2{
+        font-size: 1em;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .Navbar-buttons{
+        display: none;
+    }
+    .Navbar-mobile-button{
+        display: flex;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid var(--orange);
+        color: white;
+        padding: 34px 0 24px 0;
+
+    }
+    .Block-1-r-dot{
+        width: 12px;
+        height: 12px;
+    }
+    .Block-1-l-paragraph-1{
+        display: none;
+    }
+    .Block, .Block-2, .Block-2-2, .Block-2-10, .Block-3, 
+    .Block-5, .Block-6{
+        height: 100%;
+        padding: 5vh 2vh;
+    }
+    .Site-title, .Block-4-title {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .Flex-container-row, .Block-3-p, .Footer-container{
+        flex-wrap: wrap;
+    }
+    .Block-1-r, .Block-2-mobile-photo{
+        width: 60%;
+        display: flex;
+    }
+    .Block-2-mobile-photo-10{
+        width: 500px;
+    }
+    .Block-2-mobile-photo{
+        margin: 20px auto;
+    }
+    .p-mobile{
+        margin: 0 auto;
+        width: 800px;
+        text-align: center;
+    }
+    .Block-2-mobile-2, .Block-2-mobile-3, .Block-2-mobile-4,
+    .Block-2-mobile-5, .Block-2-mobile-6, .Block-2-mobile-7,
+    .Block-2-mobile-8, .Block-2-mobile-9
+    {
+        margin: 20px 0;
+    }
+
+    .Block-3-p{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Block-3-p img{
+        margin: 20px 0;
+    }
+
+    .Block-4-container {
+        margin-left: 0px;
+    }
+    .Block-4 {
+        height: 100%;
+        padding: 5vh;
+    }
+    .Block-4 img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .Block-5 p {
+        font-size: 1em;
+        text-align: start;
+        max-width: 300px;
+        margin: 16px 20px;
+    }
+    .Flex-container-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .Block-6-form{
+        width: 100%;
+    }
+    .Block-6-form-message {
+        color: var(--gray);
+        width: 270px;
+        height: 245px;
+        padding: 10px 20px;
+        border: 1px solid rgba(112, 112, 112, 0.5);
+        background-color: rgba(112, 112, 112, 0.25);
+        margin-left: 0px;
+    }
+    .Block-6-form-inputs-i, .Block-6-form-inputs-i_novalid {
+        color: var(--gray);
+        background-color: rgba(112, 112, 112, 0.25);
+        border: 1px solid rgba(112, 112, 112, 0.25);
+        padding: 15px 30px;
+        margin: 20px 0;
+        font-weight: 600;
+        width: 250px;
+
+    }
+    .Block-6-form-inputs{
+        height: 522px;
+    }
+    .Form-error{
+        text-align: start;
+    }
+    .Form-error-email{
+        text-align: start;
+        bottom: -35px;
+    }
+    .Form-container{
+        flex-direction: column;
+    }
+    .Block-7-img {
+        width: 300px;
+        height: 300px;
+    }
+    .Footer-map{
+        width: 320px;
+        height: 300px;
+    }
+    #Navbar img {
+        width: 50px;
+        height: 50px;
+    }
+    .Navbar-mobile-menu{
+        align-items: flex-end;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -260px;
+        right: 0;
+        background-color: var(--black);
+        text-align: end;
+        padding-right: 30px;
+
+    }
+    .Navbar-mobile-menu_open{
+        transition: 0.5s;
+        top: 80px;
+        background-color: var(--black);
+    }
+    .Navbar-mobile-menu-button-d {
+        background-color: var(--orange);
+        color: var(--black);
+        border-radius: 50px;
+        padding: 10px 25px;
+        margin: 20px -25px 20px 30px;
+        transition: 0.5s;
+    }
+    .Navbar-mobile-menu-button{
+        color: var(--gray);
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .Navbar-mobile-menu-button-line{
+        height: 3px;
+        width: 110px;
+        background-color: var(--gray);
+        margin-top: 5px;
+    }
+
+}
+
+@media(max-width: 800px){
+    .Block-6-form-input-box-text{
+        margin-bottom: -55px;
+    }
+    .Block-6-form-input-box-text_on{
+        margin-bottom: -15px;
+    } 
+    .Block-2-mobile-photo-10{
+        width: 100%;
+    }
+    .Block-1-r-photo {
+        height: 190px;
+        width: 290px;
+    }
+    .p-mobile{
+        width: 300px;
+    }
+    .Block-2-mobile-photo{
+        height: 190px;
+        width: 290px;
+    }
+}
+
