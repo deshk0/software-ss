@@ -108,7 +108,7 @@ body {
     background-color: var(--black );
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 110px;
     z-index: 1;
 }
 
@@ -116,13 +116,12 @@ body {
     width: 60px;
     height: 60px;
 }
-.Navbar-buttons{
+.Navbar-buttons, .Navbar-buttons-languages{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 75px;
 }
-.Navbar-button{
+.Navbar-button, .Navbar-button-language{
     color: var(--gray);
     padding: 32px 0;
     font-size: 1.2em;
@@ -130,6 +129,11 @@ body {
     border-bottom: 2px solid var(--gray);
     transition: 0.5s;
 
+}
+.Navbar-button-language{
+    padding: 30px 0;
+    font-size: 1.1em;
+    margin: 0 16px;
 }
 .Navbar-button-d{
     background-color: var(--orange);
@@ -139,7 +143,7 @@ body {
     transition: 0.5s;
     margin-left: 20px;
 }
-.Navbar-button:hover{
+.Navbar-button:hover, .Navbar-button-language:hover{
     transition: 0.5s;
     border-bottom: 2px solid var(--orange);
     color: var(--orange);
