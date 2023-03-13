@@ -14,7 +14,7 @@ export class HomePageEnglish extends React.Component{
                     <Block_3 />,
                     <Block_4 />,
                     <Block_6 />,
-                    <Block_7 />
+                    // <Block_7 />
                     
                 ],
                 [
@@ -24,7 +24,7 @@ export class HomePageEnglish extends React.Component{
                     <Block_3 />,
                     <Block_4 />,
                     <Block_6 />,
-                    <Block_7 />
+                    // <Block_7 />
 
                 ]
             ],
