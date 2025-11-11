@@ -23,6 +23,7 @@ export class Footer extends React.Component{
                         <div className = 'Footer-social'>
                             <a href = 'https://www.instagram.com/ss_software.ua/' target="_blank"><img src = 'https://db3pap003files.storage.live.com/y4mlqFiLbMbB5il2HhsyJIt7iuNUrT4dCdS0HGjE-oCi-s9PRhWt3KhSZlE3IJVcQTQni4nYM9jN-Wy6lfWyqlTnCs-BWm2OSv_AWlJxaPkkx1xcxAq3Iir-UP9JjjVZJXPeij5Ex1wUNtOiZuh6KtSdn9im3iFDWlbPN3s5XUaV8fwu3M33o1wkKn6AVDPd8fa?width=48&height=48&cropmode=none' alt = 'instagram' /></a>
                             <a href='https://www.linkedin.com/in/%D1%82%D0%BE%D0%B2-success-steps-software-a87755261/' target="_blank"><img src = '/linkedin.png' alt = 'linkedin' /></a>
+                            <a href='https://www.youtube.com/channel/UCuq6GR22hrG989lv_vee9rQ' target="_blank"><img src = '/youtube.png' alt = 'linkedin' /></a>
                         </div>
                         <p>
                             <a style = {{color:'white'}} target = "_blank" href = 'https://docs.google.com/document/d/1As7WHDfWGfcsNm3lyCh0JtAv6kte8w76/edit'>
@@ -61,6 +62,7 @@ export class FooterEnglish extends React.Component{
                         <div className = 'Footer-social'>
                             <a href='https://www.instagram.com/ss_software.ua/' target="_blank"><img src = 'https://db3pap003files.storage.live.com/y4mlqFiLbMbB5il2HhsyJIt7iuNUrT4dCdS0HGjE-oCi-s9PRhWt3KhSZlE3IJVcQTQni4nYM9jN-Wy6lfWyqlTnCs-BWm2OSv_AWlJxaPkkx1xcxAq3Iir-UP9JjjVZJXPeij5Ex1wUNtOiZuh6KtSdn9im3iFDWlbPN3s5XUaV8fwu3M33o1wkKn6AVDPd8fa?width=48&height=48&cropmode=none' alt = 'instagram' /></a>
                             <a href='https://www.linkedin.com/in/%D1%82%D0%BE%D0%B2-success-steps-software-a87755261/' target="_blank"><img src = '/linkedin.png' alt = 'linkedin' /></a>
+                            <a href='https://www.youtube.com/channel/UCuq6GR22hrG989lv_vee9rQ' target="_blank"><img src = '/youtube.png' alt = 'linkedin' /></a>
                         </div>
                         <p>
                             <a style = {{color:'white'}} target = "_blank" href = 'https://docs.google.com/document/d/1As7WHDfWGfcsNm3lyCh0JtAv6kte8w76/edit'>

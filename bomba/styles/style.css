@@ -8,7 +8,6 @@ body {
     background-color: var(--bg);
 
     background-image: linear-gradient(-90deg, rgba(36,124,255,0.12098) 0%, rgba(93,97,70,0) 45%);
-    background-size: 1660px, 160px, 100%, 100%;
     background-position: center, center, right, center;
     background-position-y: center,center,center, 11000px;
     background-repeat: repeat, repeat , repeat, no-repeat, no-repeat;
